@@ -1,4 +1,4 @@
-package array_sort;
+package lesson3.array_sort;
 
 import java.util.Arrays;
 

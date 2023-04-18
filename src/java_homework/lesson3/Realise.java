@@ -1,3 +1,5 @@
+package lesson3;
+
 public class Realise {
     public static void main(String[] args) throws Exception {
 
