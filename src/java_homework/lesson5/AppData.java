@@ -24,4 +24,6 @@ public class AppData {
     public void setDataFuel(int[][] dataFuel) {
         this.dataFuel = dataFuel;
     }
+
+    /**/
 }
