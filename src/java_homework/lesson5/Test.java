@@ -30,5 +30,22 @@ public class Test {
         }
 
         AppData appData = new AppData(dataName, dataFuel);
+
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("car_info_copy.csv"))) {
+
+            for (int i = 0; i < 3; i++) {
+                for (int j = 0; j < 3; j++) {
+                    writer.write(carInfo[i][j] + ";");
+                }
+                writer.write(
+                        System.lineSeparator() +
+                        "Строка " + (i + 1) +  " перезаписана" +
+                        System.lineSeparator()
+                );
+            }
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
