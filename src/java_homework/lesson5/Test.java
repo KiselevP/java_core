@@ -48,4 +48,5 @@ public class Test {
             throw new RuntimeException(e);
         }
     }
+    /*что смог....я не до конца понял крайнюю строку в задании*/
 }
