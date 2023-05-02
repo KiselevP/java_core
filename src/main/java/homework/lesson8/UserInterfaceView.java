@@ -12,9 +12,9 @@ public class UserInterfaceView {
         while (true) {
             System.out.println(
                     "1 - погода на сегодня; " +
-                            "5 - погода на 5 дней; " +
-                            "2 - погода из БД " +
-                            "Для выхода введите 0:");
+                    "5 - погода на 5 дней; " +
+                    "2 - погода из БД; " +
+                    "Для выхода введите 0:");
 
             String command = scanner.nextLine();
 
